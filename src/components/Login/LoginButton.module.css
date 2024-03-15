@@ -1,0 +1,23 @@
+.button {
+    outline: none;
+    border: none;
+    height: 32px;
+    width: 100%;
+    background-image: linear-gradient(0deg, #d83939,#f74141);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.button:hover {
+    cursor: pointer;
+    filter: brightness(1.1);
+}
+
+.clicked {
+    background-image: linear-gradient(180deg, #b63030,#f74141);
+}
